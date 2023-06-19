@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px){
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container .row .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+
+    .container .row .h-name h1{
+        font-size: 28px;
+    }
+    .container .row .h-name h2{
+        font-size: 22px;
+    }
+
+    .container .row .foto{
+        margin-top: 10%;
+        margin-bottom: 20px;
+    }
+
+    .container .row .foto img{
+        max-width: 125px;
+    }
+
+    .container .row .foto p{
+        font-size: 15px;
+        margin-left: 2%;
+    }
+
+    .container .row .foto h3{
+        font-size: 18px;
+        margin-left: 2%;
+    }
+
+    .container .h-sobre {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .container .h-sobre .h-title-sobre h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .container .h-sobre .paragraf{
+        font-size: 18px;
+    }
+
+    .container .h-experiencia .h-title-experiencia h2{
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .container .h-experiencia .h-itens .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 120px;
+        margin-bottom: 50px;
+    }
+
+    .container .h-experiencia .h-itens .item .work {
+        min-width: 100%;
+        min-height: 80px;
+    }
+
+    .container .h-experiencia .h-itens .item .description {
+        min-width: 100%;
+        min-height: 100px;
+    }
+}
