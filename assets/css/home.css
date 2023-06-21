@@ -284,15 +284,14 @@
     background: transparent;
 }
 
-.container .h-habilidades .item .icon .percentual-10 {
-    width: 50%;       /* alterar para animar */
+.container .h-habilidades .item .icon .percentual {
     height: 100%;
     border-radius: 6px;
     background-color: #1853ac;
 }
 
 .container .h-contato {
-    width: 100%; 
+    width: 100%;
     min-height: 200px;
     margin-bottom: 50px;
 }
@@ -339,3 +338,15 @@ footer {
     height: 30px;
 }
 
+.init-hidden {
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.init-hidden-off {
+    opacity: 1;
+}
+
+.hide {
+    width: 0;
+}
