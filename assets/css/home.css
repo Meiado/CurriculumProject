@@ -331,6 +331,15 @@
     font-size: 18px;
     color: #1853ac;
 }
+.container .h-contato .item p a{
+    text-decoration: none;
+
+}
+
+.container .h-contato .item p a:visited{
+    color: #1853ac;
+    
+}
 
 footer {
     background-color: #1853ac;
