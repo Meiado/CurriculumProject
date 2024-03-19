@@ -5,7 +5,7 @@ const percentObserver = new IntersectionObserver(entries => {
         if(entry.intersectionRatio >= 1){
             if(entry.target.classList.contains('hide')){
                 entry.target.classList.remove('hide')
-                entry.target.setAttribute('style', `width: ${Number(entry.target.ariaValueNow)}%; transition: width 1s ease-in-out;`)
+                //entry.target.setAttribute('style', `width: ${Number(entry.target.ariaValueNow)}%; transition: width 1s ease-in-out;`)
             }
         }
     })
