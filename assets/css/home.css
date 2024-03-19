@@ -169,6 +169,14 @@
     color: #000000;
 }
 
+.container .h-experiencia .h-itens .item .description p a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    color: #1853ac;
+}
+
 .container .h-educacao {
     width: 100%;
     min-height: 100px;
@@ -271,8 +279,7 @@
 .container .h-habilidades .item h2{
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     color: #000000;
 }
 
@@ -281,7 +288,7 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 20px;
-    color: #000000;
+    color: #1853ac;
 }
 
 .container .h-habilidades .item .icon{
@@ -343,8 +350,8 @@
     color: #1853ac;
 }
 .container .h-contato .item p a{
-    text-decoration: none;
-
+    text-decoration: underline;
+    color: #1853ac;
 }
 
 .container .h-contato .item p a:visited{
