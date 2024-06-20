@@ -70,7 +70,7 @@
     }
 
     .container .h-experiencia .h-title-experiencia h2{
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 
@@ -97,7 +97,7 @@
     }
 
     .container .h-educacao .h-title-educacao h2 {
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 
@@ -106,7 +106,7 @@
     }
 
     .container .h-educacao .item .title{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .container .h-educacao .item .title h2 {
@@ -118,12 +118,12 @@
     }
 
     .container .h-habilidades .h-title-habilidades h2 {
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 
     .container .h-contato .h-title-contato h2{
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 }
@@ -149,7 +149,7 @@
     }
 
     .container .h-sobre .h-title-sobre h2 {
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 
@@ -158,7 +158,7 @@
     }
 
     .container .h-experiencia .h-title-experiencia h2 {
-        margin-top: 5%;
+        margin-top: 3%;
         font-size: 22px;
     }
 
@@ -218,4 +218,187 @@
         margin-top: 5%;
         font-size: 22px;
     }
+}
+
+
+@media print {
+    .container {
+        padding: 15mm;
+    }
+    .container .row .h-name {
+        width: 100%;
+        min-height: 100px;
+        margin-top: 5%;
+        margin-bottom: 5px;
+    }
+    
+    .container .row .foto {
+        width: 50%;
+        max-width: 200px;
+        margin-top: 5%;
+        margin-bottom: 5px;
+    }
+    .container .row .foto img{
+        width: 70%;
+        max-width: 200px;
+        border-radius: 20%;
+    }
+    .h-name h1, .h-name h2 {
+        font-size: 18px;
+    }
+    .perfil p, .experiencia p, .education p, .conhecimentos p, .idiomas p, .cursos p {
+        font-size: 12px;
+    }
+    .h-title-sobre h2, .h-title-experiencia h2, .h-title-education h2, .h-title-conhecimentos h2, .h-title-idiomas h2, .h-title-cursos h2 {
+        font-size: 16px;
+    }
+    .container .h-sobre {
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 5px;
+    }
+    .container .h-sobre .h-title-sobre{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .container .h-sobre .h-title-sobre h2{
+        margin-top: 5%;
+        font-size: 16px;
+    }
+    .container .h-sobre .paragraf {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .container .h-name h2 {
+        text-align: right;
+        font-size: 18px;
+    }
+
+    .container .h-name h1 {
+        text-align: right;
+        font-size: 32px;
+    }
+    .container .h-experiencia .h-title-experiencia {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .container .h-experiencia .h-title-experiencia h2{
+        margin-top: 3%;
+        font-size: 16px;
+    }
+
+    .container .h-experiencia .h-itens {
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .h-experiencia .h-itens .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100px;
+        gap: 2px;
+    }
+
+    .container .h-experiencia .h-itens .item .work{
+        min-width: 30%;
+        max-width: 30%;
+        min-height: 50px;
+    }
+    .container .h-experiencia .h-itens .item .work h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .container .h-experiencia .h-itens .item .description h2 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    
+    .container .h-experiencia .h-itens .item .description p {
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .container .h-experiencia .h-itens .item .description p a{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .container .h-experiencia .h-itens .item .description {
+        width: 75%;
+        min-height: 100px;
+    }
+    
+    .container .h-experiencia .h-itens .item .work p {
+        font-size: 12px;
+    }
+
+    .container .h-habilidades .h-title-habilidades {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .container .h-habilidades .h-title-habilidades h2 {
+        margin-top: 3%;
+        font-size: 16px;
+    }
+
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+
+    .container .h-habilidades .item h2{
+        font-size: 14px;
+    }
+    
+    .container .h-habilidades .item h1{
+        font-size: 14px;
+    }
+    .container .h-habilidades{
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    
+.container .h-contato {
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 5px;
+}
+
+.container .h-contato .h-title-contato {
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 2px;
+}
+
+.container .h-contato .h-title-contato h2 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.container .h-contato .item {
+    width: 100%;
+    min-height: 50px;
+}
+
+.container .h-contato .item h2 {
+    font-size: 14px;
+}
+
+.container .h-contato .item p {
+    font-size: 12px;
+}
+
 }
